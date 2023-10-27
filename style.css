@@ -1,0 +1,321 @@
+/* COLORS */
+
+.bg-dark-grey {
+  background-color: #272833;
+}
+
+/* za kruznite ikoni */
+.bg-light-grey {
+  background-color: #3d3e48;
+}
+
+.bg-red {
+  background-color: #e44c65;
+}
+
+.bg-violet {
+  background-color: rgb(93, 93, 238);
+}
+.bg-green {
+  background-color: #2dd451;
+}
+/* za kopcinjata na hover */
+.color-cyan {
+  color: #008b8b;
+}
+
+/* RESETS */
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 1rem;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+  color: white;
+}
+
+/* COMMON STYLES */
+
+h1,
+h2,
+h3,
+h4 {
+  margin-bottom: 1rem;
+}
+
+h2 {
+  font-size: 1.4rem;
+}
+
+h3 {
+  font-size: 1rem;
+}
+h4 {
+  font-size: 1.3rem;
+}
+
+/* HEADER */
+.header {
+  min-height: 100vh;
+  position: relative;
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 98%;
+  margin: 0 auto;
+  padding-top: 1rem;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav-links li:last-child {
+  margin-right: 0;
+  border-radius: 0.2rem;
+  padding: 0.2rem 0.2rem;
+  background-color: #e44c65;
+}
+.nav-links li {
+  margin-right: 1rem;
+}
+
+.header-title {
+  text-align: center;
+  width: 20%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.header-title h1 {
+  font-size: 1.7rem;
+}
+
+.header-title p {
+  line-height: 2rem;
+  font-size: 0.9rem;
+}
+
+.header-icon {
+  position: absolute;
+  bottom: 1%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.header-icon i {
+  font-size: 1.8rem;
+}
+
+/* CAR SECTION 1 */
+
+.car-section-1 {
+  min-height: 100vh;
+  background-image: url(./images/picture1.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+}
+
+.text {
+  width: 25%;
+  padding: 5rem 0rem;
+}
+
+.article-container-1 {
+  position: absolute;
+  bottom: 0%;
+  left: 0%;
+  right: 0%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(35, 35, 64, 0.9);
+  border-top: 3px solid #e44c65;
+}
+.car-section-2 {
+  min-height: 100vh;
+  background-image: url(./images/picture2.jpeg);
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+}
+
+.car-section-3 {
+  min-height: 100vh;
+  background-image: url(./images/picture3.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+}
+
+.article-container-2 {
+  position: absolute;
+
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(35, 35, 64, 0.8);
+  border-left: 3px solid #5d5dee;
+}
+
+.container-2-text {
+  width: 70%;
+}
+
+.article-container-3 {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  bottom: 0%;
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(35, 35, 64, 0.8);
+  border-left: 3px solid #2dd451;
+}
+
+.btn {
+  margin-top: 2rem;
+  padding: 0.7rem 1.2rem;
+  background-color: transparent;
+  border: 1px solid white;
+  font-size: 0.9rem;
+  border-radius: 0.2rem;
+  cursor: pointer;
+  &:hover {
+    color: #008b8b;
+    border-color: #008b8b;
+  }
+}
+
+.container-3-text {
+  width: 50%;
+}
+
+/* ICON SECTION */
+.icon-section {
+  padding: 2.3rem 0rem;
+}
+.icon-header {
+  width: 35%;
+  text-align: center;
+  margin: 0 auto;
+  padding-bottom: 2.3rem;
+}
+
+.icon-header h3 {
+  font-size: 1.5rem;
+}
+
+.icon-header hr {
+  height: 3px;
+  width: 65%;
+  background-color: #e44c65;
+  border-color: #e44c65;
+  margin: 0 auto;
+  margin-top: 2.3rem;
+}
+
+.icon-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.card {
+  flex-basis: 30%;
+  text-align: center;
+  margin-bottom: 2rem;
+  margin-right: 2rem;
+}
+.card:nth-child(3n + 0) {
+  margin-right: 0;
+}
+
+.card i {
+  font-size: 1rem;
+  border-radius: 50%;
+  width: 3rem;
+  height: 3rem;
+  line-height: 3rem;
+  background-color: #3d3e48;
+  margin-bottom: 0.8rem;
+}
+
+/* FORM SECTION */
+
+.form-section {
+  background-color: #e44c65;
+  text-align: center;
+}
+
+.form-heading {
+  padding: 2rem 0rem 1rem 0rem;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.form-heading p {
+  font-weight: 600;
+}
+
+.form-container {
+  width: 50%;
+  margin: 0 auto;
+  padding-bottom: 2rem;
+}
+
+input[type="email"] {
+  width: 60%;
+  background-color: transparent;
+  border: 1px solid white;
+  font-size: 0.7rem;
+  padding: 0.5rem;
+  border-radius: 0.2rem;
+  &::placeholder {
+    color: white;
+  }
+}
+
+.submit-btn {
+  font-size: 0.7rem;
+  background-color: white;
+  color: #e44c65;
+  padding: 0.5rem 1rem;
+  border-radius: 0.2rem;
+  border: 1px solid white;
+  cursor: pointer;
+}
+
+/* FOOTER */
+.social-media {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  padding: 2rem 0rem 1rem 0rem;
+}
+
+.social-media i {
+  font-size: 1.5rem;
+}
+
+.social-media a {
+  margin-right: 1rem;
+}
+
+.copy-right {
+  text-align: center;
+}
